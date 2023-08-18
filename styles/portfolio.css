@@ -1,3 +1,5 @@
+body, html {scroll-behavior: smooth;}
+
 /* 반응형 대비 최소제한 너비 설정 */
 header, main {min-width:900px;}
 
@@ -110,17 +112,26 @@ main #project_web1 {
 }
 main #project_web1 h1 {
     font-size: 2.5rem; line-height: 40px;
+    padding-top: 33px;
 }
-main #project_web1 .link {}
-main #project_web1 .link a {
-    border:2px solid #000;
-    text-align:center; display: block;
-
-}
-main #project_web1 .link a:first-child {}
 main #project_web1 .project_info {}
 main #project_web1 .project_info p {
-    font-size:2.25rem;
+    font-size:2rem; line-height:40px; letter-spacing:-0.02em;
 }
 main #project_web1 .preview {}
 main #project_web1 .preview img {width: 50%;}
+main #project_web1 .link {
+    text-align:center; display: block;
+    padding-bottom:50px;
+}
+main #project_web1 .link a {
+    /* border:2px solid #000; */
+    background: #222; color:#fff;
+    border-radius:5px;
+    padding:20px 10px;
+    
+}
+main #project_web1 .link a:last-child {
+    background: #bf395a;
+    padding:20px 10px;
+}
