@@ -1,0 +1,4 @@
+@media screen and (max-width:1400px){ /*값 변경*/
+    main #skill .container {height:1000px}
+    main #skill .container li {width:50%;}
+} /*1400 end*/
